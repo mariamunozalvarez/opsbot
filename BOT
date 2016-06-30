@@ -1,0 +1,9 @@
+/* START HERE */
+controller.hears(
+   ['Who is Takk?','takk','takk?'],
+   ['direct_mention', 'mention', 'direct_message'],
+   function(bot,message) {
+       bot.reply(message,'https://www.compass.com/agents/nyc/takk-yamaguchi/');
+   }
+);
+/* END HERE */
